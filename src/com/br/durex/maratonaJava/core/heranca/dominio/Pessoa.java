@@ -4,6 +4,16 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private Endereco endereco;
+    
+    static {
+        System.out.println("Dentro static pessoa");
+    }
+    {
+        System.out.println("Inicialização não static 1");
+    }
+    {
+        System.out.println("Inicialização não static 2");
+    }
 
     public String getNome() {
         return nome;
@@ -12,7 +22,12 @@ public class Pessoa {
     public Pessoa() {
     }
 
+    public Pessoa(String nome) {
+        System.out.println("Dentor construtor Pessoa");
+    }
+
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
