@@ -1,5 +1,7 @@
 package com.br.durex.maratonaJava.core.exception.runtime.teste;
 
+import static java.lang.System.out;
+
 public class RuntimeExceptionTeste04 {
     public static void main(String[] args) {
         abreConexao();
@@ -10,15 +12,15 @@ public class RuntimeExceptionTeste04 {
             throw new RuntimeException;
 
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("");
+            out.println("");
         } catch (IndexOutOfBoundsException){
-            System.out.println("");
+            out.println("");
         } catch (IllegalAccessError){
-            System.out.println("");
+            out.println("");
         } catch (ArithmeticException){
-            System.out.println("");
+            out.println("");
         } catch (RuntimeException){
-            System.out.println("");
+            out.println("");
         }
 
         // Tipos mais genéricos sempre abaixo
