@@ -9,17 +9,17 @@ public class RuntimeExceptionTeste04 {
 
     private static String abreConexao() {
         try {
-            throw new RuntimeException;
+            throw new RuntimeException();
 
         } catch (ArrayIndexOutOfBoundsException e) {
             out.println("");
-        } catch (IndexOutOfBoundsException){
+        } catch (IndexOutOfBoundsException e){
             out.println("");
-        } catch (IllegalAccessError){
+        } catch (IllegalAccessError e){
             out.println("");
-        } catch (ArithmeticException){
+        } catch (ArithmeticException e){
             out.println("");
-        } catch (RuntimeException){
+        } catch (RuntimeException e){
             out.println("");
         }
 
