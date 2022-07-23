@@ -10,7 +10,7 @@ public class PathMatcherTeste01 {
         matches(path1, "glob:*.bkp");
         matches(path1, "glob:**.*.bkp");
         matches(path1, "glob:**.*.{bkp,txt,java}");
-        
+
     }
 
     private static void matches(Path path, String glob) {
