@@ -2,7 +2,7 @@ package com.br.durex.maratonaJava.core.classesInternas.teste;
 
 class Animal {
     public void walk() {
-        sout("Animal walking");
+        System.out.println("Animal walking");
     }
 }
 
